@@ -1,0 +1,1 @@
+diff -y <(sha256sum file | cut -d ' ' -f1) <(cat file.sha256 | cut -d ' ' -f1) && echo match || echo fail
